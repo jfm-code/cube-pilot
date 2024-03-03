@@ -13,11 +13,6 @@
 - <b>Convert to HSV color space:</b> The RGB image is converted to the HSV (Hue, Saturation, Value) color space, which is more suitable for color-based image processing.
 - <b>Filter by color & detect blobs:</b> Color filtering is applied to isolate regions in the image that match the specified color ranges for green and yellow cubes. Blob detection algorithms are used to identify and locate the detected colored regions (blobs) in the image.
 
-<h2>Screenshots</h2>
-<div><img src="https://i.imgur.com/K58JEfM.png" width=45% height=45% align="right"/> </div>
-<div><img src="https://i.imgur.com/bfOgmNL.png" width=45% height=45% align="left"/></div>
-<div><img src="https://i.imgur.com/JiC0ePL.png" width=45% height=45% align="right"/> </div>
-<div><img src="https://i.imgur.com/KwrbVOU.png" width=45% height=45% align="left"/></div>
 
 
 
@@ -29,3 +24,9 @@ Requirements
 Python
 OpenCV
 Cozmo SDK
+
+<h2>Screenshots</h2>
+<div><img src="https://i.imgur.com/K58JEfM.png" width=45% height=45% align="right"/> </div>
+<div><img src="https://i.imgur.com/bfOgmNL.png" width=45% height=45% align="left"/></div>
+<div><img src="https://i.imgur.com/JiC0ePL.png" width=45% height=45% align="right"/> </div>
+<div><img src="https://i.imgur.com/KwrbVOU.png" width=45% height=45% align="left"/></div>
