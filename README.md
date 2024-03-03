@@ -19,9 +19,9 @@ The color detection process is the most challenging aspect of this project due t
  
 
 <h2>Requirements</h2>
-- Python
-- OpenCV
-- Cozmo SDK
+<li>Python 3.5.1 or later</li>
+<li> OpenCV</li>
+<li>Cozmo SDK</li>
 
 <h2>Screenshots</h2>
 <div><img src="https://i.imgur.com/K58JEfM.png" width=45% height=45% align="right"/> </div>
