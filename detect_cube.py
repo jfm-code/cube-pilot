@@ -8,12 +8,8 @@ def filter_image(img, hsv_lower, hsv_upper):
     mask = cv2.inRange(hsv, hsv_lower, hsv_upper)
     '''cv2.imshow("mask", mask)
     cv2.waitKey(0)'''
-    
     return mask
 
-    ###############################################################################
-    ### You might need to change the parameter values to get better results
-    ###############################################################################
 def detect_blob(mask):
     #ret, mask = cv2.threshold(mask, 25, 255, cv2.THRESH_BINARY_INV)
    # Set up the SimpleBlobdetector with default parameters.
@@ -37,7 +33,6 @@ def detect_blob(mask):
     detector = cv2.SimpleBlobDetector_create(params)
     # Detect blobs.
     keypoints = detector.detect(mask)
-    
     return keypoints
 
 def find_cube(img, hsv_lower, hsv_upper):
@@ -53,10 +48,6 @@ def find_cube(img, hsv_lower, hsv_upper):
 
     if len(keypoints) == 0:
         return None
-    
-    ###############################################################################
-    # Todo: Sort the keypoints in a certain way if multiple key points get returned
-    ###############################################################################
 
     # Sort keypoints by radius
     sorted_keypoints = sorted(keypoints, key=lambda keypoint: keypoint.size)
