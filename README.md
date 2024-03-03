@@ -24,5 +24,5 @@ The color detection process is the most challenging aspect of this project due t
 <li>Cozmo SDK</li>
 
 <h2>Screenshots</h2>
-<div><img src="https://imgur.com/cDrIpVY.png"/> </div>
-<div><img src="https://imgur.com/tQ7852Y.png"/> </div>
+<div><img src="https://imgur.com/cDrIpVY.png" width=70%/> </div>
+<div><img src="https://imgur.com/tQ7852Y.png" width=70%/> </div>
