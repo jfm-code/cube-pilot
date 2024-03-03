@@ -1,4 +1,4 @@
-<h1>CubePilot - Cube Detection and Navigation</h1> 
+<h1>Cube Pilot - Cube Detection and Navigation</h1> 
  <p>Cube Pilot is a Python project that leverages OpenCV and the Cozmo SDK to enable the Cozmo robot to detect the color of a cube and navigate towards it, stopping within a specified distance for interaction..</p>
 
 <h2>Features</h2>
