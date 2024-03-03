@@ -20,9 +20,11 @@ except ImportError:
 def nothing(x):
     pass
 
+#Threshold to detect yellow color
 YELLOW_LOWER = np.array([11, 160, 100])
 YELLOW_UPPER = np.array([179, 255, 255])
 
+#Threshold to detect green color
 GREEN_LOWER = np.array([0,0,0])
 GREEN_UPPER = np.array([179, 255, 60])
 
@@ -100,18 +102,6 @@ async def run(robot: cozmo.robot.Robot):
                             robot.drive_wheel_motors(15, -15)
                     else:
                         robot.drive_wheel_motors(0, 0)
-                            
-
-                
-                    #right
-                ################################################################
-                # Todo: Add Motion Here
-                ################################################################
-                #robot.move_head(1)
-                
-                #robot.drive_wheel_motors(50, 50)
-                
-
 
 
     except KeyboardInterrupt:
