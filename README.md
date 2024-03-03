@@ -25,6 +25,3 @@ The color detection process is the most challenging aspect of this project due t
 
 <h2>Screenshots</h2>
 <div><img src="https://imgur.com/cDrIpVY.png" width=45% height=45% align="right"/> </div>
-<div><img src="https://i.imgur.com/bfOgmNL.png" width=45% height=45% align="left"/></div>
-<div><img src="https://i.imgur.com/JiC0ePL.png" width=45% height=45% align="right"/> </div>
-<div><img src="https://i.imgur.com/KwrbVOU.png" width=45% height=45% align="left"/></div>
