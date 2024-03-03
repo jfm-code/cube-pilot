@@ -14,16 +14,14 @@
 - <b>Filter by color & detect blobs:</b> Color filtering is applied to isolate regions in the image that match the specified color ranges for green and yellow cubes. Blob detection algorithms are used to identify and locate the detected colored regions (blobs) in the image.
 
 
-
-
-Challenges
+<h2>Challenges</h2>
 The color detection process is the most challenging aspect of this project due to variations in lighting conditions across different environments. Varying lighting conditions can impact the accuracy of color detection algorithms, requiring careful calibration and tuning for optimal performance.
  
 
-Requirements
-Python
-OpenCV
-Cozmo SDK
+<h2>Requirements</h2>
+- Python
+- OpenCV
+- Cozmo SDK
 
 <h2>Screenshots</h2>
 <div><img src="https://i.imgur.com/K58JEfM.png" width=45% height=45% align="right"/> </div>
